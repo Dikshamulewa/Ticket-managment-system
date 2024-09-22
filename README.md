@@ -31,14 +31,14 @@ Launch the application.
 #### 2.Connect to Your MongoDB Instance: 
 Enter the connection string (usually mongodb://localhost:27017 for local installations) and click "Connect."
 #### 3.Create a Database:
--Click on "Create Database."
--Enter your desired database name and the name of your first collection (e.g., tickets).
--Click "Create Database."
+- Click on "Create Database."
+- Enter your desired database name and the name of your first collection (e.g., tickets).
+- Click "Create Database."
 
 ### Testing
 You can test the API endpoints using tools like Postman to ensure that all operations are functioning as expected.
 
 ### Example requests:
-POST to /api/tickets to create a ticket.
-GET from /api/tickets to get all tickets.
-GET from /api/ticket/:id to retrieve a specific ticket by its ID.
+- POST to /api/tickets to create a ticket.
+- GET from /api/tickets to get all tickets.
+- GET from /api/ticket/:id to retrieve a specific ticket by its ID.
